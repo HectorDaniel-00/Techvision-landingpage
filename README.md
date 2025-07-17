@@ -43,7 +43,7 @@ techvision-landingpage/
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/techvision-landingpage.git
+git clone https://github.com/tu-usuario/Techvision-landingpage.git
 ```
 
 2. Abre el archivo `index.html` en tu navegador web favorito.
