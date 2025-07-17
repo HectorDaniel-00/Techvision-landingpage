@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/style.css">
+        <!-- Iconos de Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header>
+            <h1>RiwiTalk 2025</h1>
+            <nav>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-discord"></i>
+            </nav>
+        </header>
+        <div class="sidebar">
+            <ul>
+            <li>
+                <i class="fas fa-home"></i>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-user"></i>
+                <a href="invitado.html">Invitados</a>
+            </li>
+            <li>
+                <i class="fas fa-address-book"></i>
+                <a href="contact.html">Contacto</a>
+            </li>
+            </ul>
+        </div>
+        <main>
+            <section>
+                <form id="form_shadows">
+                    <h2>Datos personales</h2>
+                    <label for="name">Nombre: </label>
+                    <input placeholder="Escribe....." type="text" name="name" id="name" required>
+
+                    <label class="forget" for="email">Email: </label>
+                    <input placeholder="Escribe....." type="email" name="email" id="email" required>
+
+                    <textarea placeholder="Escribe algo breve....." name="description" id="description" required></textarea>
+
+                    <button class="buttonShadow" id="buttonShadow">Enviar</button>
+                </form>
+            </section>
+        </main>
+        
+    </body>
+</html>
